@@ -6,19 +6,25 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="#414141">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
+    body {
+        font-family: 'Quicksand', sans-serif;    
+    }
     .navbar {
         margin-bottom:0;
         border-radius: 0;
-        background-color: #414141;
+/*        background-color: #414141;*/
+        background-color: #FFFFFF;
         color: #FFF;
         padding: 1% 0;
         font-size: 1.2em;
         border: 0;
+        font-family: 'Quicksand', sans-serif;
     }
     .navbar-brand {
         float: left;
@@ -26,11 +32,15 @@
         padding: 0 15px 5px;
     }
     .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-        color: #FFF;
-        background-color: #414141;
+        color: #414141;
+        background-color: #FFFFFF;
     }
     .navbar-inverse .navbar-nav li a {
+/*        color: #D5D5D5;*/
         color: #D5D5D5;
+    }
+    .navbar-inverse .navbar-nav li a:hover {
+        color: #414141;
     }
     .carousel-caption {
         top: 57%;
@@ -42,6 +52,9 @@
         min-width: 100;
         height: auto;
     }
+    .carousel-control.left, .carousel-control.right {
+        background-image: none
+    }
     .btn {
         transition-duration: 0.2s;
         font-size: 18px;
@@ -52,11 +65,12 @@
         border: 2px solid #FFF;
     }
     .btn:hover {
-        background-color: #FFF;
+        background-color: #414141;
         color: #414141;
     }
     .container{
         margin: 4% auto;
+        font-family: 'Quicksand', sans-serif;
     }
     #icon {
         max-width: 200px;
@@ -108,7 +122,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="img/logo_small.jpg"></a>
+<!--                 <a class="navbar-brand" href="#"><img src="img/logo_small.jpg"></a> -->
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -139,8 +153,8 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-            <img src="img/snow.png">
-            <div class="carousel-caption">
+            <img src="img/cover.png">
+<!--             <div class="carousel-caption">
                 <h1>Boston University Statistics Club</h1>
                 <br>
                 <a href="#about" class="btn bt-default">Join!</a>
@@ -153,14 +167,14 @@
                         return false;
                     });
                 </script>
-                <!-- <button type="button" class="btn bt-default">Get Started</button> -->
-            </div>
+                <button type="button" class="btn bt-default">Get Started</button>
+            </div> -->
             </div> <!-- END ACTIVE -->
             <div class="item">
-                <img src="img/map.jpg">
+                <img src="img/cover.png">
             </div>
             <div class="item">
-                <img src="img/globe.jpg">
+                <img src="img/cover.png">
             </div>
         </div>
         <!-- START SLIDER CONTROLS -->
